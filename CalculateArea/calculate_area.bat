@@ -1,7 +1,7 @@
 @echo off
-echo Fecha:%date%
-echo Hora:%time%
-color 0A
+echo Date ini:%date%
+echo Time ini:%time%
+color 0B
 echo ===========================================
 echo. 
 echo          =   CALCULO DE AREA   =
@@ -9,15 +9,14 @@ echo.
 echo ===========================================
 echo.
 echo.
-cd C:\test_python\ejercicios\python_platzi
-"C:\Users\carva\AppData\Local\Programs\Python\Python37\python.exe" calculate_area.py
+"C:\Program Files\Python39\python.exe" calculate_area.py
 
-echo Fecha:%date%
-echo Hora:%time%
+echo Date end:%date%
+echo Time end:%time%
 PAUSE
 echo.
 echo.
-echo Para salir presiona una tecla.
+echo Push any key to go out...
 pause>nul
 exit
 

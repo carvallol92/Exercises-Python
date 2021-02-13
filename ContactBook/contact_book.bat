@@ -1,6 +1,6 @@
 @echo off
-echo Fecha:%date%
-echo Hora:%time%
+echo Date ini:%date%
+echo Time ini:%time%
 color 0B
 echo ===========================================
 echo. 
@@ -9,15 +9,13 @@ echo.
 echo ===========================================
 echo.
 echo.
-cd C:\onedrive\test_python\python_platzi\directorio
-"C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" contact_book.py
+"C:\Program Files\Python39\python.exe" contact_book.py
 
-echo Fecha:%date%
-echo Hora:%time%
+echo Date end:%date%
+echo Time end:%time%
 PAUSE
 echo.
 echo.
-echo Para salir presiona una tecla.
+echo Push any key to go out...
 pause>nul
 exit
-
